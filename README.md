@@ -2,7 +2,7 @@
 
 Use a generic target called ***i686-elf*** or ***arm-none-eabi***, which provides a toolchain targeting the `System V ABI`. 
 
-The first thing is to set up a GCC #Cross-Compiler for **i686-elf** or **arm-none-eabi**.  We build a toolset running our host that can turn source code into object files for our target system.
+The first thing is to set up a GCC Cross-Compiler for **i686-elf** or **arm-none-eabi**.  We build a toolset running our host that can turn source code into object files for our target system.
 
 - We will install our new compiler into `$HOME/opt/cross`
 - We build everything out of the source directory tree, as is considered good practice.
