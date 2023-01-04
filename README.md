@@ -1,4 +1,4 @@
-Use a generic target called #i686-elf or #arm-none-eabi, which provides a toolchain targeting the `System V ABI`. 
+Use a generic target called ***i686-elf*** or ***arm-none-eabi***, which provides a toolchain targeting the `System V ABI`. 
 
 The first thing is to set up a GCC #Cross-Compiler for **i686-elf** or **arm-none-eabi**.  We build a toolset running our host that can turn source code into object files for our target system.
 
